@@ -3,3 +3,7 @@ node_modules/
 npm-debug.log
 .idea/*
 config.json
+dist/
+index.html
+package-lock.json
+solutions/
