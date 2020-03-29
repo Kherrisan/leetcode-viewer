@@ -22,14 +22,14 @@
 |300|[longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)| [java](.&#x2F;solutions&#x2F;300.longest-increasing-subsequence&#x2F;longest-increasing-subsequence.java)|Medium|44.00%||
 |365|[water-and-jug-problem](https://leetcode-cn.com/problems/water-and-jug-problem/)| [java](.&#x2F;solutions&#x2F;365.water-and-jug-problem&#x2F;water-and-jug-problem.java)|Medium|35.11%||
 |409|[longest-palindrome](https://leetcode-cn.com/problems/longest-palindrome/)| [java](.&#x2F;solutions&#x2F;409.longest-palindrome&#x2F;longest-palindrome.java)|Easy|54.93%||
-|695|[max-area-of-island](https://leetcode-cn.com/problems/max-area-of-island/)| [java](.&#x2F;solutions&#x2F;695.max-area-of-island&#x2F;max-area-of-island.java)|Medium|63.12%||
-|820|[short-encoding-of-words](https://leetcode-cn.com/problems/short-encoding-of-words/)| [java](.&#x2F;solutions&#x2F;820.short-encoding-of-words&#x2F;short-encoding-of-words.java)|Medium|48.32%||
+|695|[max-area-of-island](https://leetcode-cn.com/problems/max-area-of-island/)| [java](.&#x2F;solutions&#x2F;695.max-area-of-island&#x2F;max-area-of-island.java)|Medium|63.13%||
+|820|[short-encoding-of-words](https://leetcode-cn.com/problems/short-encoding-of-words/)| [java](.&#x2F;solutions&#x2F;820.short-encoding-of-words&#x2F;short-encoding-of-words.java)|Medium|48.42%||
 |836|[rectangle-overlap](https://leetcode-cn.com/problems/rectangle-overlap/)| [java](.&#x2F;solutions&#x2F;836.rectangle-overlap&#x2F;rectangle-overlap.java)|Easy|49.87%||
-|876|[middle-of-the-linked-list](https://leetcode-cn.com/problems/middle-of-the-linked-list/)| [java](.&#x2F;solutions&#x2F;876.middle-of-the-linked-list&#x2F;middle-of-the-linked-list.java)|Easy|68.67%||
+|876|[middle-of-the-linked-list](https://leetcode-cn.com/problems/middle-of-the-linked-list/)| [java](.&#x2F;solutions&#x2F;876.middle-of-the-linked-list&#x2F;middle-of-the-linked-list.java)|Easy|68.68%||
 |892|[surface-area-of-3d-shapes](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/)| [java](.&#x2F;solutions&#x2F;892.surface-area-of-3d-shapes&#x2F;surface-area-of-3d-shapes.java)|Easy|64.39%||
-|914|[x-of-a-kind-in-a-deck-of-cards](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)| [java](.&#x2F;solutions&#x2F;914.x-of-a-kind-in-a-deck-of-cards&#x2F;x-of-a-kind-in-a-deck-of-cards.java)|Easy|39.32%||
+|914|[x-of-a-kind-in-a-deck-of-cards](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)| [java](.&#x2F;solutions&#x2F;914.x-of-a-kind-in-a-deck-of-cards&#x2F;x-of-a-kind-in-a-deck-of-cards.java)|Easy|39.33%||
 |945|[minimum-increment-to-make-array-unique](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/)| [java](.&#x2F;solutions&#x2F;945.minimum-increment-to-make-array-unique&#x2F;minimum-increment-to-make-array-unique.java)|Medium|47.56%||
-|999|[available-captures-for-rook](https://leetcode-cn.com/problems/available-captures-for-rook/)| [java](.&#x2F;solutions&#x2F;999.available-captures-for-rook&#x2F;available-captures-for-rook.java)|Easy|69.37%||
-|1160|[find-words-that-can-be-formed-by-characters](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)| [java](.&#x2F;solutions&#x2F;1160.find-words-that-can-be-formed-by-characters&#x2F;find-words-that-can-be-formed-by-characters.java)|Easy|69.48%||
-|1162|[as-far-from-land-as-possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)| [java](.&#x2F;solutions&#x2F;1162.as-far-from-land-as-possible&#x2F;as-far-from-land-as-possible.java)|Medium|43.93%||
+|999|[available-captures-for-rook](https://leetcode-cn.com/problems/available-captures-for-rook/)| [java](.&#x2F;solutions&#x2F;999.available-captures-for-rook&#x2F;available-captures-for-rook.java)|Easy|69.38%||
+|1160|[find-words-that-can-be-formed-by-characters](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)| [java](.&#x2F;solutions&#x2F;1160.find-words-that-can-be-formed-by-characters&#x2F;find-words-that-can-be-formed-by-characters.java)|Easy|69.47%||
+|1162|[as-far-from-land-as-possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)| [java](.&#x2F;solutions&#x2F;1162.as-far-from-land-as-possible&#x2F;as-far-from-land-as-possible.java)|Medium|45.27%||
 
