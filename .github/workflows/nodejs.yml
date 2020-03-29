@@ -30,3 +30,7 @@ jobs:
         LEETCODE_PASSWORD: ${{ secrets.LEETCODE_PASSWORD }}
     - run: npm run build
     - run: npm run generate
+    - name: push to the repository
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
