@@ -79,10 +79,10 @@
               state.resultJson = data
               this.problems = data
               if (this.$route.params.id !== undefined) {
-                if (this.problems[Number(this.$route.params.id)] === undefined) {
+                if (this.problems[this.$route.params.id] === undefined) {
                   this.$router.replace('/404')
                 } else {
-                  this.fetchContent(this.problems[Number(this.$route.params.id)].id, this.problems[Number(this.$route.params.id)].title)
+                  this.fetchContent(this.$route.params.id, this.problems[this.$route.params.id].title)
                 }
               } else {
                 for (let num in data) {
@@ -100,10 +100,10 @@
           } else {
             this.problems = state.resultJson
             if (this.$route.params.id !== undefined) {
-              if (this.problems[Number(this.$route.params.id)] === undefined) {
+              if (this.problems[this.$route.params.id] === undefined) {
                 this.$router.replace('/404')
               } else {
-                this.fetchContent(this.problems[Number(this.$route.params.id)].id, this.problems[Number(this.$route.params.id)].title)
+                this.fetchContent(this.$route.params.id, this.problems[this.$route.params.id].title)
               }
             } else {
               for (let num in state.resultJson) {
@@ -117,15 +117,8 @@
         }
       },
       fetchContent (id, title) {
-        this.postId = id + ''
         let pureId = id
-        if (id < 10) {
-          id = '00' + id
-        } else if (id < 100) {
-          id = '0' + id
-        } else {
-          id = '' + id
-        }
+        this.postId = id + ''
         this.title = ``
         this.content = ``
         this.question = ``

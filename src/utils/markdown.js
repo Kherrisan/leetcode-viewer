@@ -23,7 +23,7 @@ marked.setOptions({
   pedantic: false,
   sanitize: false,
   tables: true,
-  breaks: true,
+  breaks: false,
   smartLists: true,
   smartypants: true,
   highlight: function (code, lang) {
