@@ -46,7 +46,7 @@ export default{
   },
   computed: {
     compiledContent: function () {
-      return this.content
+      return markdown(this.content)
     },
     compiledQuestion: function () {
       return this.question
