@@ -3,14 +3,14 @@
     <img src="https://img.shields.io/badge/Solved/Total(Locked)-16/1586(294)-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-0-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-6-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-8-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-10-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
 <p align="center">
     <b>Language: java c++</b>
     <br>
-    <b>Last updated: 2020-03-29</b>
+    <b>Last updated: 2020-03-30</b>
     <br><br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
@@ -32,4 +32,6 @@
 |999|[available-captures-for-rook](https://leetcode-cn.com/problems/available-captures-for-rook/)| [java](.&#x2F;solutions&#x2F;999.available-captures-for-rook&#x2F;available-captures-for-rook.java)|Easy|69.38%||
 |1160|[find-words-that-can-be-formed-by-characters](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)| [java](.&#x2F;solutions&#x2F;1160.find-words-that-can-be-formed-by-characters&#x2F;find-words-that-can-be-formed-by-characters.java)|Easy|69.47%||
 |1162|[as-far-from-land-as-possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)| [java](.&#x2F;solutions&#x2F;1162.as-far-from-land-as-possible&#x2F;as-far-from-land-as-possible.java)|Medium|45.27%||
+|面试题 01.06|[compress-string-lcci](https://leetcode-cn.com/problems/compress-string-lcci/)| [java](.&#x2F;solutions&#x2F;面试题 01.06.compress-string-lcci&#x2F;compress-string-lcci.java)|Easy|49.01%||
+|面试题 17.16|[the-masseuse-lcci](https://leetcode-cn.com/problems/the-masseuse-lcci/)| [java](.&#x2F;solutions&#x2F;面试题 17.16.the-masseuse-lcci&#x2F;the-masseuse-lcci.java)|Easy|53.73%||
 
