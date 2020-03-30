@@ -1,9 +1,9 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total(Locked)-16/1586(294)-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total(Locked)-17/1586(294)-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-0-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-6-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-10-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-11-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
@@ -34,4 +34,5 @@
 |1162|[as-far-from-land-as-possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)| [java](.&#x2F;solutions&#x2F;1162.as-far-from-land-as-possible&#x2F;as-far-from-land-as-possible.java)|Medium|45.27%||
 |面试题 01.06|[compress-string-lcci](https://leetcode-cn.com/problems/compress-string-lcci/)| [java](.&#x2F;solutions&#x2F;面试题 01.06.compress-string-lcci&#x2F;compress-string-lcci.java)|Easy|49.01%||
 |面试题 17.16|[the-masseuse-lcci](https://leetcode-cn.com/problems/the-masseuse-lcci/)| [java](.&#x2F;solutions&#x2F;面试题 17.16.the-masseuse-lcci&#x2F;the-masseuse-lcci.java)|Easy|53.73%||
+|面试题62|[yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)| [java](.&#x2F;solutions&#x2F;面试题62.yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof&#x2F;yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.java)|Easy|60.65%||
 
