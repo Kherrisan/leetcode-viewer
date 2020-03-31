@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total(Locked)-17/1586(294)-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total(Locked)-18/1586(294)-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-0-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-6-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-7-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-11-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -10,7 +10,7 @@
 <p align="center">
     <b>Language: java c++</b>
     <br>
-    <b>Last updated: 2020-03-30</b>
+    <b>Last updated: 2020-03-31</b>
     <br><br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
@@ -27,6 +27,7 @@
 |836|[rectangle-overlap](https://leetcode-cn.com/problems/rectangle-overlap/)| [java](.&#x2F;solutions&#x2F;836.rectangle-overlap&#x2F;rectangle-overlap.java)|Easy|49.87%||
 |876|[middle-of-the-linked-list](https://leetcode-cn.com/problems/middle-of-the-linked-list/)| [java](.&#x2F;solutions&#x2F;876.middle-of-the-linked-list&#x2F;middle-of-the-linked-list.java)|Easy|68.68%||
 |892|[surface-area-of-3d-shapes](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/)| [java](.&#x2F;solutions&#x2F;892.surface-area-of-3d-shapes&#x2F;surface-area-of-3d-shapes.java)|Easy|64.39%||
+|912|[sort-an-array](https://leetcode-cn.com/problems/sort-an-array/)| [java](.&#x2F;solutions&#x2F;912.sort-an-array&#x2F;sort-an-array.java)|Medium|59.37%||
 |914|[x-of-a-kind-in-a-deck-of-cards](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)| [java](.&#x2F;solutions&#x2F;914.x-of-a-kind-in-a-deck-of-cards&#x2F;x-of-a-kind-in-a-deck-of-cards.java)|Easy|39.33%||
 |945|[minimum-increment-to-make-array-unique](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/)| [java](.&#x2F;solutions&#x2F;945.minimum-increment-to-make-array-unique&#x2F;minimum-increment-to-make-array-unique.java)|Medium|47.56%||
 |999|[available-captures-for-rook](https://leetcode-cn.com/problems/available-captures-for-rook/)| [java](.&#x2F;solutions&#x2F;999.available-captures-for-rook&#x2F;available-captures-for-rook.java)|Easy|69.38%||
