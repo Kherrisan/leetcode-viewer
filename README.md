@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total(Locked)-20/1586(294)-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total(Locked)-21/1587(295)-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-0-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-9-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-10-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-11-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -10,7 +10,7 @@
 <p align="center">
     <b>Language: java c++</b>
     <br>
-    <b>Last updated: 2020-04-02</b>
+    <b>Last updated: 2020-04-03</b>
     <br><br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
@@ -18,6 +18,7 @@
 
 | # | Problems | Solutions | Difficulty | Acceptance | Paid-Only
 |:--:|:-----:|:---------:|:----:|:----:|:----:|
+|8|[string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/)| [java](.&#x2F;solutions&#x2F;8.string-to-integer-atoi&#x2F;string-to-integer-atoi.java)|Medium|20.27%||
 |169|[majority-element](https://leetcode-cn.com/problems/majority-element/)| [java](.&#x2F;solutions&#x2F;169.majority-element&#x2F;majority-element.java)|Easy|62.80%||
 |289|[game-of-life](https://leetcode-cn.com/problems/game-of-life/)| [java](.&#x2F;solutions&#x2F;289.game-of-life&#x2F;game-of-life.java)|Medium|74.64%||
 |300|[longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)| [java](.&#x2F;solutions&#x2F;300.longest-increasing-subsequence&#x2F;longest-increasing-subsequence.java)|Medium|44.00%||
