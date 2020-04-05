@@ -1,6 +1,6 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total(Locked)-22/1591(295)-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total(Locked)-22/1595(295)-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-1-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-10-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-11-blue.svg?style=flat-square" alt="">
@@ -10,7 +10,7 @@
 <p align="center">
     <b>Language: java c++</b>
     <br>
-    <b>Last updated: 2020-04-04</b>
+    <b>Last updated: 2020-04-05</b>
     <br><br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
