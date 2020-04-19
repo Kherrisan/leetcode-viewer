@@ -3,6 +3,7 @@
  */
 import marked from 'marked'
 import highlight from 'highlight.js/lib/highlight'
+import 'highlight.js/styles/solarized-light.css'
 const languages = ['cpp', 'java', 'c', 'cs', 'js', 'py', 'rb', 'swift', 'go']
 highlight.registerLanguage('cpp', require('highlight.js/lib/languages/cpp'))
 highlight.registerLanguage('java', require('highlight.js/lib/languages/java'))
