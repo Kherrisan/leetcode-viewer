@@ -25,6 +25,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+    - run: rm -rf solutions
     - run: node lib/entry.js
       env: 
         LEETCODE_PASSWORD: ${{ secrets.LEETCODE_PASSWORD }}
