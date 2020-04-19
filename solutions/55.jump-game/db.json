@@ -1,1 +1,1 @@
-{}
+{"kotlin":"import java.lang.Integer.max\n\n\nclass Solution {\n    fun canJump(nums: IntArray): Boolean {\n        var right=0;\n        for(i in nums.indices){\n            //如果 i 已经脱离了 right，那就说明失败了\n            if(i<=right){\n                right=max(right,i+nums[i])\n                if(right>=nums.size-1){\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}"}

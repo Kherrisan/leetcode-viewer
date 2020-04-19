@@ -7,5 +7,6 @@ export default {
   'python': 'py',
   'ruby': 'rb',
   'swift': 'swift',
-  'go': 'go'
+  'go': 'go',
+  'kotlin': 'kt'
 }
