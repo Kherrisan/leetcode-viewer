@@ -1,0 +1,1 @@
+{"java":"class Solution {\n    public int maxSubArray(int[] nums) {\n        if(nums.length==0){\n            return 0;\n        }\n        int res=nums[0];\n        int sum=0;\n        for(int n:nums){\n            sum=Math.max(sum+n,n);\n            res=Math.max(res,sum);\n        }\n        return res;\n    }\n}"}
