@@ -1,0 +1,1 @@
+{"java":"class Solution {\n    public int jump(int[] nums) {\n        int end=0,maxPos=0,N=nums.length,jumps=0;\n        for(int i=0;i<N-1;i++){\n            maxPos=Math.max(maxPos,i+nums[i]);\n            if(i==end){\n                end=maxPos;\n                jumps++;\n            }\n        }\n        return jumps;\n    }\n}"}
