@@ -1,0 +1,1 @@
+{"java":"class Solution {\n    public int mySqrt(int x) {\n        long left=0,right=x/2+1;\n        while(left<right){\n            long mid=(left+right+1)/2;\n            if(mid*mid>x){\n                right=mid-1;\n            }else{\n                left=mid;\n            }\n        }\n        return (int)left;\n    }\n}"}
