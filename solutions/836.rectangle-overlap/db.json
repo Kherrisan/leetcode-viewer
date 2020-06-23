@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {\n        return !(rec1[0]>=rec2[2]\n        ||rec1[3]<=rec2[1]\n        ||rec1[2]<=rec2[0]\n        ||rec1[1]>=rec2[3]);\n    }\n}"}
