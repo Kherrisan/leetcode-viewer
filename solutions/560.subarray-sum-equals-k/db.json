@@ -1,1 +1,1 @@
-{"java":"class Solution {\n    public int subarraySum(int[] nums, int k) {\n        int res=0,sum=0;\n        Map<Integer,Integer> map=new HashMap();\n        map.put(0,1);\n        for(int i=0;i<nums.length;i++){\n            sum+=nums[i];\n            if(map.containsKey(sum-k)){\n                res+=map.get(sum-k);\n            }\n            map.put(sum,map.getOrDefault(sum,0)+1);\n        }\n        return res;\n    }\n}"}
+{}
