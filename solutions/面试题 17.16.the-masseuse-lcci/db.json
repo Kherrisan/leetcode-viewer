@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public int massage(int[] nums) {\n        int[] endOf=new int[nums.length];\n        if(nums.length==0){\n            return 0;\n        }else if(nums.length==1){\n            return nums[0];\n        }\n        endOf[0]=nums[0];\n        endOf[1]=Math.max(nums[0],nums[1]);\n        for(int i=2;i<nums.length;i++){\n            endOf[i]=Math.max(endOf[i-1],endOf[i-2]+nums[i]);\n        }\n        return endOf[nums.length-1];\n    }\n}"}
