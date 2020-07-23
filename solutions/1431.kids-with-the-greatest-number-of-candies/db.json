@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {\n        int max=Integer.MIN_VALUE;\n        for(int i:candies){\n            max=Math.max(i,max);\n        }\n        List<Boolean> list=new ArrayList();\n        for(int i:candies){\n            list.add(i+extraCandies>=max);\n        }\n        return list;\n    }\n}"}
