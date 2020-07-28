@@ -1,1 +1,1 @@
-{"java":"/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode(int x) { val = x; }\n * }\n */\nclass Solution {\n    public ListNode middleNode(ListNode head) {\n        ListNode slow=head;\n        ListNode fast=head;\n        while(fast!=null&&fast.next!=null){\n            fast=fast.next.next;\n            slow=slow.next;\n        }\n        return slow;\n    }\n}"}
+{}
