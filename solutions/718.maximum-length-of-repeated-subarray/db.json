@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public int findLength(int[] A, int[] B) {\n        int M = A.length,N = B.length;\n        int[][] dp=new int[M+1][N+1];\n        int local = 0;\n        int res = 0;\n        for(int i=1;i<M+1;i++){\n            for(int j=1;j<N+1;j++){\n                if(A[i-1]==B[j-1]){\n                    dp[i][j]=dp[i-1][j-1]+1;\n                    local = Math.max(local,dp[i][j]);\n                }\n            }\n            res = Math.max(local,res);\n        }\n        return res;\n    }\n}"}
