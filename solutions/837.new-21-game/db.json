@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public double new21Game(int N, int K, int W) {\n        if (K==0) return 1.0;\n        double[] dp=new double[K+W];\n        double s=0;\n        for(int i=K;i<K+W;i++){\n            if(i<=N){\n                dp[i]=1.0;\n            }else{\n                dp[i]=0.0;\n            }\n            s+=dp[i];\n        }\n        for(int i=K-1;i>=0;i--){\n            dp[i]=s/W;\n            s+=dp[i];\n            s-=dp[i+W];\n        }\n        return dp[0];\n    }\n}"}
