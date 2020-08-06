@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public int minArray(int[] numbers) {\n        int low = 0;\n        int high = numbers.length - 1;\n        while (low < high) {\n            int pivot = low + (high - low) / 2;\n            if (numbers[pivot] < numbers[high]) {\n                high = pivot;\n            } else if (numbers[pivot] > numbers[high]) {\n                low = pivot + 1;\n            } else {\n                high -= 1;\n            }\n        }\n        return numbers[low];\n    }\n}\n"}
