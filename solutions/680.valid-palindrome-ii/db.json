@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public boolean validPalindrome(String s) {\n        char[] ch=s.toCharArray();\n        int i=0,j=s.length()-1;\n        for(;i<j&&ch[i]==ch[j];i++,j--);\n        return i>=j||isPalindrome(ch,i,j-1) || isPalindrome(ch,i+1,j);\n    }\n\n    boolean isPalindrome(char[] ch,int i,int j){\n        while(i<j){\n            if(ch[i++]!=ch[j--]){\n                return false;\n            }\n        }\n        return true;\n    }\n}"}
