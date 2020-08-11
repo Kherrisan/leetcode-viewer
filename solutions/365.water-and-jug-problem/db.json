@@ -1,1 +1,1 @@
-{}
+{"java":"class Solution {\n    public boolean canMeasureWater(int x, int y, int z) {\n        if(x+y<z){\n            return false;\n        }else if(x+y==z){\n            return true;\n        }\n        if(x==0||y==0){\n            return x+y==z||z==0;\n        }\n        return z%gcd(x,y)==0;\n    }\n\n    int gcd(int m,int n){\n        if(m<n){\n            int t=m;\n            m=n;\n            n=t;\n        }\n        if(m%n==0){\n            return n;\n        }\n        return gcd(n,m%n);\n    }\n}"}
