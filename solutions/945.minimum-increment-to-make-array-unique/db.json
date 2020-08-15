@@ -1,1 +1,1 @@
-{"java":"class Solution {\n    public int minIncrementForUnique(int[] A) {\n        int[] hash=new int[80000];\n        int move=0;\n        for(int i=0;i<80000;i++){\n            hash[i]=-1;\n        }\n        for(int a:A){\n            int pos = findPos(hash,a);\n            move+=pos-a;\n        }\n        return move;\n    }\n\n    int findPos(int[] hash,int t){\n        if(hash[t]==-1){\n            hash[t]=t;\n            return t;\n        }\n        hash[t]=findPos(hash,hash[t]+1);\n        return hash[t];\n    }\n}"}
+{}
