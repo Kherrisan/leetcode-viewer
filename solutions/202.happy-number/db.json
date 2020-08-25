@@ -1,1 +1,1 @@
-{"java":"class Solution {\n    public boolean isHappy(int n) {\n        Set<Integer> set=new HashSet();\n        while(!set.contains(n)){\n            set.add(n);\n            System.out.println(n);\n            int happy=0;\n            while(n>0){\n                int d=n%10;\n                n/=10;\n                happy+=d*d;\n            }\n            if(happy==1){\n                return true;\n            }else{\n                n=happy;\n            }\n        }\n        return false;\n    }\n}"}
+{}

@@ -1,1 +1,1 @@
-{"kotlin":"class Solution {\n    fun reverseWords(s: String): String {\n        //简简单单才是真\n        return s.trim().split(Pattern.compile(\"\\\\s+\")).reversed().joinToString(\" \")\n    }\n}"}
+{}

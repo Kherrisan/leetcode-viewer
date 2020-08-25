@@ -1,1 +1,1 @@
-{"java":"class Solution {\n    public boolean isPalindrome(int x) {\n        String val = \"\"+x;\n        int left=0,right=val.length()-1;\n        while(left<right){\n            if(val.charAt(left)!=val.charAt(right)){\n                return false;\n            }\n            left++;\n            right--;\n        }\n        return true;\n    }\n}"}
+{}

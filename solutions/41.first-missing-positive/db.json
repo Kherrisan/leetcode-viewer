@@ -1,1 +1,1 @@
-{"java":"class Solution {\n    public int firstMissingPositive(int[] nums) {\n        int N=nums.length;\n        for(int i=0;i<N;i++){\n            if(nums[i]<=0){\n                nums[i]=N+1;\n            }\n        }\n        for(int i=0;i<N;i++){\n            int n=Math.abs(nums[i]);\n            if(n<=N){\n                nums[n-1]=-Math.abs(nums[n-1]);\n            }\n        }\n        for(int i=0;i<N;i++){\n            if(nums[i]>0){\n                return i+1;\n            }\n        }\n        return N+1;\n    }\n}"}
+{}

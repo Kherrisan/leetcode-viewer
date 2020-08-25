@@ -1,1 +1,1 @@
-{"kotlin":"class Solution {\n    fun longestCommonPrefix(strs: Array<String>): String {\n        if(strs.isEmpty()) return \"\"\n        val min=strs.min()!!\n        val max=strs.max()!!\n        for(i in min.indices){\n            if(min[i]!=max[i]){\n                return min.substring(0,i)\n            }\n        }\n        return min\n    }\n}"}
+{}
